@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: console-dev
   namespace: argocd
+  annotations:
+    kargo.akuity.io/authorized-stage: console:dev
 spec:
   project: default
   sources:

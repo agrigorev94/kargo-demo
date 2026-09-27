@@ -7,5 +7,5 @@ type: application
 version: 0.1.0
 dependencies:
   - name: console
-    version: 1.2.0
+    version: 1.0.0
     repository: oci://registry.registry.svc.cluster.local:5000/charts

@@ -1,0 +1,6 @@
+dependencies:
+- name: console
+  repository: oci://registry.registry.svc.cluster.local:5000/charts
+  version: 1.1.0
+digest: sha256:55f91ba64189ebfdb33d0457875cc3fc841c0f17126951db65b03c4b364e4683
+generated: "2026-09-27T14:47:02.820351803Z"

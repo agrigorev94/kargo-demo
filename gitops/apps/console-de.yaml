@@ -10,7 +10,7 @@ spec:
   sources:
     - repoURL: oci://registry.registry.svc.cluster.local:5000/charts/console
       path: .
-      targetRevision: 1.0.0
+      targetRevision: 1.2.0
       helm:
         valueFiles:
           - $values/gitops/values/console-de.yaml

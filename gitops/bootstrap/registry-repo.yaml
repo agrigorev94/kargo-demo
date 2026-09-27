@@ -1,0 +1,14 @@
+# Registers the in-cluster OCI registry with Argo CD (no credentials, plain HTTP).
+# Native OCI type is used because Helm-type OCI repos cannot be pulled over plain HTTP.
+apiVersion: v1
+kind: Secret
+metadata:
+  name: repo-local-oci-registry
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  name: console-chart
+  type: oci
+  url: oci://registry.registry.svc.cluster.local:5000/charts/console
+  insecureOCIForceHttp: "true"

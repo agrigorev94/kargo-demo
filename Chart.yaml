@@ -1,0 +1,5 @@
+apiVersion: v2
+name: console
+description: Console components (protostar, quasar, eclipse) as plain Pods
+type: application
+version: 1.0.0

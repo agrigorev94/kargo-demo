@@ -1,0 +1,17 @@
+protostar:
+  image:
+    registry: docker.io
+    repository: library/nginx
+    tag: "1.27.3"
+
+quasar:
+  image:
+    registry: docker.io
+    repository: library/nginx
+    tag: "1.27.4"
+
+eclipse:
+  image:
+    registry: docker.io
+    repository: library/nginx
+    tag: "1.27.5"

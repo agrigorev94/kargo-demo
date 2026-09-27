@@ -1,4 +1,0 @@
-# Placeholder environment-specific values for console-de.
-# Not consumed by chart templates yet.
-environment: de
-region: germany

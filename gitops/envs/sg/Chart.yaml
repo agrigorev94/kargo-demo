@@ -1,0 +1,11 @@
+# Wrapper chart for console-sg. Kargo bumps the console dependency version
+# here on promotion (helm-update-chart step); Argo CD renders this directory.
+apiVersion: v2
+name: console-sg
+description: console deployment for the sg environment
+type: application
+version: 0.1.0
+dependencies:
+  - name: console
+    version: 1.2.0
+    repository: oci://registry.registry.svc.cluster.local:5000/charts

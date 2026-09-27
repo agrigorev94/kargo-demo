@@ -1,0 +1,11 @@
+# Wrapper chart for console-uz. Kargo bumps the console dependency version
+# here on promotion (helm-update-chart step); Argo CD renders this directory.
+apiVersion: v2
+name: console-uz
+description: console deployment for the uz environment
+type: application
+version: 0.1.0
+dependencies:
+  - name: console
+    version: 1.1.0
+    repository: oci://registry.registry.svc.cluster.local:5000/charts

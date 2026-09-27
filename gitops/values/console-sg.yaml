@@ -1,4 +1,0 @@
-# Placeholder environment-specific values for console-sg.
-# Not consumed by chart templates yet.
-environment: sg
-region: singapore

@@ -1,4 +1,0 @@
-# Placeholder environment-specific values for console-dev.
-# Not consumed by chart templates yet.
-environment: dev
-region: local

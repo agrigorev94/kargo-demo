@@ -1,0 +1,5 @@
+# Values for the console subchart in dev go under the "console" key.
+console:
+  # Placeholders, not consumed by chart templates yet.
+  environment: dev
+  region: local

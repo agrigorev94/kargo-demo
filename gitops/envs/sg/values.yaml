@@ -1,0 +1,5 @@
+# Values for the console subchart in sg go under the "console" key.
+console:
+  # Placeholders, not consumed by chart templates yet.
+  environment: sg
+  region: singapore
